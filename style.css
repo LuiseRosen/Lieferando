@@ -1,0 +1,599 @@
+/* Schrift rgb(36,46,48) */
+/* Orange rgb(243,104,5) */
+/* Grau rgb(239,237,234) */
+/* Grün rgb(4,123,59) */
+
+html {
+    font-family: sans-serif;
+    color: rgb(36, 46, 48);
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+}
+
+.menu-section {
+    width: 70%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.lieferando-lettering {
+    height: 32px;
+    margin: 0 0 0 32px;
+}
+
+.german-flag {
+    margin: 24px 24px 24px 24px;
+    height: 24px;
+}
+
+.menu-icon {
+    height: 24px;
+    margin: 24px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-shadow: -1px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.basket-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.basket-title {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px 24px 0px;
+}
+
+.deliver-collect {
+    background-color: rgb(239, 237, 234);
+    height: 56px;
+    width: 320px;
+    margin: 0px 12px 0px 12px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deliver-collect-white-background {
+    background-color: white;
+    height: 48px;
+    width: 156px;
+    border-radius: 30px;
+}
+
+.deliver-collect-text-container {
+    height: 48px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.deliver-collect-text {
+    height: 48px;
+    width: 156px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.empty-basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basket-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: scroll;
+    margin: 32px 0px 0px 0px;
+}
+
+.basket-icon {
+    height: 32px;
+    margin: 10vh 0px 28px 0px;
+}
+
+.basket-text {
+    color: gray;
+    display: flex;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.dish-in-basket {
+    width: 100%;
+    border-bottom: 1px solid rgb(239, 237, 234);
+    padding: 12px 0px 12px 0px;
+}
+
+.dish-in-basket-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-in-basket-price {
+    margin: 0px 12px 0px 0px;
+}
+
+.amount {
+    margin: 0px 12px 0px 12px;
+}
+
+.change-amount-in-basket {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 12px 0px 0px 0px;
+}
+
+.change-amount-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 6px 0px 6px;
+    background-color: rgb(239, 237, 234);
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+}
+
+.change-amount-btn:hover {
+    background-color: rgb(233, 230, 226);
+}
+
+.plus-minus-icon-basket {
+    height: 24px;
+    width: 24px;
+}
+
+.charge-order-container {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.charges {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.total-charge {
+    font-weight: 800;
+}
+
+.order-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(243, 104, 5);
+    height: 56px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-btn:hover {
+    background-color: rgb(240, 120, 8)
+}
+
+.thanks-header {
+    margin: 80px 0px 24px 0px;
+}
+
+.thanks-text {
+    margin: 0px 32px 0px 32px;
+    text-align: center;
+}
+
+.reset-basket-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 24px 0px 0px 0px;
+    background-color: rgb(243, 104, 5);
+    height: 56px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-basket-btn:hover {
+    background-color: rgb(240, 120, 8)
+}
+
+.header-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 100% 30%;
+}
+
+.restaurant-img {
+    position: absolute;
+    object-fit: contain;
+    left: 16px;
+    top: 380px;
+    height: 70px;
+    width: 70px;
+    border: rgba(0, 0, 0, 0.1) solid 0.3px;
+    border-radius: 8px;
+    z-index: 2;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.restaurant-title {
+    margin: 40px 0px 0px 16px;
+}
+
+.menu-sub-section-headline {
+    margin: 40px 0px 0px 16px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin: 24px 0px 24px 12px;
+}
+
+.star-rating {
+    height: 20px;
+    margin: 0px 12px 0px 0px;
+}
+
+.rating-count {
+    color: gray;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.rating-count:hover {
+    text-decoration: none;
+}
+
+.location {
+    display: flex;
+    margin: 0px 0px 0px 14px;
+    font-size: 14px;
+}
+
+.location-icon {
+    height: 14px;
+    margin: 0px 8px 0px 0px;
+}
+
+.dish {
+    margin: 12px 24px 0px 12px;
+    padding: 16px 14px 16px 14px;
+    border-radius: 12px;
+    border: 1px solid rgb(226, 224, 220);
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish:hover {
+    background-color: rgb(248, 245, 241);
+}
+
+.dish-title {
+    margin: 0px 0px 12px 0px;
+}
+
+.dish-description {
+    margin: 0px 0px 12px 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.dish-price {
+    margin: 0px 0px 0px 0px;
+}
+
+.dish-img-container {
+    display: flex;
+}
+
+.dish-img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+
+.add-to-basket-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 18px;
+    background-color: rgb(239, 237, 234);
+    height: 32px;
+    width: 32px;
+    border-radius: 40px;
+}
+
+.plus-icon-add-to-basket {
+    height: 18px;
+    width: 18px;
+}
+
+/* RESPONSIVE --------------------------------------------------------------------------------- */
+
+.responsive-basket-btn-container {
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.responsive-basket-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(243, 104, 5);
+    height: 40px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive-basket {
+    background-color: white;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.responsive-basket-header {
+    padding-bottom: 24px;
+    height: 140px;
+}
+
+.responsive-basket-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    overflow: scroll;
+    height: 500px;
+    padding: 24px 0px 24px 0px;
+}
+
+.responsive-basket-charges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 24px;
+}
+
+.hide-responsive-basket-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: rgb(239, 237, 234);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-icon {
+    height: 24px;
+}
+
+.display-none {
+    display: none;
+}
+
+@media only screen and (max-width: 1120px) {
+    .basket {
+        width: 352px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .basket {
+        display: none;
+    }
+
+    .responsive-basket {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .responsive-basket-btn-container {
+        display: flex;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .menu-section {
+        width: 100%;
+    }
+
+    .main-section {
+        margin-bottom: 88px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .hide-responsive-basket-btn {
+        top: 24px;
+        right: 24px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .hide-responsive-basket-btn {
+        top: 12px;
+        right: 12px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .close-icon {
+        height: 14px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .german-flag {
+        margin: 24px 0px 24px 0px;
+    }
+
+    .restaurant-title {
+        margin: 32px 0px 0px 12px;
+    }
+
+    .rating {
+        margin: 16px 0px 12px 12px;
+    }
+
+    .rating-count {
+        font-size: 14px;
+    }
+
+    .star-rating {
+        height: 16px;
+        margin: 0px 6px 0px 0px;
+    }
+
+    .menu-sub-section-headline {
+        margin: 26px 0px 0px 16px
+    }
+
+    .dish-description {
+        font-size: 12px;
+    }
+
+    .deliver-collect {
+        height: 48px;
+        width: 258px;
+    }
+    
+    .deliver-collect-white-background {
+        height: 40px;
+        width: 124px;
+    }
+    
+    .deliver-collect-text {
+        height: 40px;
+        width: 124px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .german-flag {
+        display: none;
+    }
+
+    .header-headline {
+        display: none;
+    }
+}
